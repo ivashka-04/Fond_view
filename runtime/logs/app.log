@@ -1,0 +1,558 @@
+2017-10-11 18:06:09 [10.240.1.67][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:06:09 [10.240.1.67][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.1.67
+    in /home/ubuntu/workspace/views/layouts/main.php:122
+2017-10-11 18:06:09 [10.240.1.67][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.1.67
+2017-10-11 18:06:09 [10.240.1.67][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => ''
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.1.67'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '52048'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745169.143
+    'REQUEST_TIME' => 1507745169
+]
+2017-10-11 18:06:19 [10.240.0.224][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:06:19 [10.240.0.224][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.0.224
+    in /home/ubuntu/workspace/views/layouts/main.php:122
+2017-10-11 18:06:19 [10.240.0.224][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.0.224
+2017-10-11 18:06:19 [10.240.0.224][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.224'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '53320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745179.435
+    'REQUEST_TIME' => 1507745179
+]
+2017-10-11 18:07:50 [10.240.1.31][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:07:50 [10.240.1.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.1.31
+    in /home/ubuntu/workspace/views/layouts/main.php:122
+2017-10-11 18:07:50 [10.240.1.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.1.31
+2017-10-11 18:07:50 [10.240.1.31][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.1.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '46580'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745270.484
+    'REQUEST_TIME' => 1507745270
+]
+2017-10-11 18:09:50 [10.240.0.224][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:09:50 [10.240.0.224][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.0.224
+    in /home/ubuntu/workspace/views/layouts/main.php:122
+2017-10-11 18:09:50 [10.240.0.224][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.0.224
+2017-10-11 18:09:50 [10.240.0.224][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.224'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '56908'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745390.492
+    'REQUEST_TIME' => 1507745390
+]
+2017-10-11 18:10:05 [10.240.1.67][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:10:05 [10.240.1.67][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.1.67
+    in /home/ubuntu/workspace/views/layouts/main.php:122
+2017-10-11 18:10:05 [10.240.1.67][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.1.67
+2017-10-11 18:10:05 [10.240.1.67][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.1.67'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '55824'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745405.042
+    'REQUEST_TIME' => 1507745405
+]
+2017-10-11 18:10:58 [10.240.1.31][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:10:58 [10.240.1.31][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.1.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '50758'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745458.317
+    'REQUEST_TIME' => 1507745458
+]
+2017-10-11 18:13:30 [10.240.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:13:30 [10.240.1.14][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.1.14'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '55248'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745610.159
+    'REQUEST_TIME' => 1507745610
+]
+2017-10-11 18:19:32 [10.240.1.31][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 18:19:32 [10.240.1.31][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.1.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '60830'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507745972.842
+    'REQUEST_TIME' => 1507745972
+]
+2017-10-11 19:53:21 [10.240.0.189][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-10-11 19:53:21 [10.240.0.189][-][-][info][application] $_COOKIE = [
+    '_csrf' => '16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\" é™Ð\'ÿž—¸¯¢[Cð÷ÆRÍ¶›Ý¾IŒ±t\\\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=16e996d270fdcf0fb51472d31c92eb36bdc71474db1bfcd97aa69b38050e0adaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%15%A0%E9%99%D0%27%FF%9E%97%90%B8%AF%A2%5BC%F0%F7%C6R%CD%B6%9B%DD%BEI%81%8C%13%90%B1t%5C%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '2.132.7.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/mnt/shared/bin:/workspace/node_modules/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.36'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.0.189'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '51844'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507751601.545
+    'REQUEST_TIME' => 1507751601
+]
+2017-11-09 15:14:37 [10.240.1.184][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "web/".' in /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('web/', Array)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/ubuntu/workspace/web/index.php(13): yii\base\Application->run()
+#2 {main}
+2017-11-09 15:14:37 [10.240.1.184][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'yii2-ivashka04.c9users.io'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'https://yii2-ivashka04.c9users.io/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => ''
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_FORWARDED_PORT' => '443'
+    'HTTP_X_REGION' => 'eu'
+    'HTTP_X_FORWARDED_FOR' => '89.42.204.18'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v6.11.2/bin:/usr/local/rvm/gems/ruby-2.4.0/bin:/usr/local/rvm/gems/ruby-2.4.0@global/bin:/usr/local/rvm/rubies/ruby-2.4.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at yii2-ivashka04.c9users.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'yii2-ivashka04.c9users.io'
+    'SERVER_ADDR' => '172.17.0.129'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.1.184'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php'
+    'REMOTE_PORT' => '55812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1510240477.826
+    'REQUEST_TIME' => 1510240477
+]
