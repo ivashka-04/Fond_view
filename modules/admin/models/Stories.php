@@ -88,4 +88,22 @@ class Stories extends \yii\db\ActiveRecord
         }
 
     }
+
+
+    public function uploadGallery()
+    {
+        if ($this->validate()){
+            foreach ($this->gallery as $file) {
+                $path = 'upload/store' . $file->baseName . '.' . $file->extension;
+                $file->saveAs($path);
+                $this->attachImage($path);
+                @unlink($path);
+            }
+            return true;
+        }else {
+            false;
+        }
+
+    }
+
 }

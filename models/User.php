@@ -3,9 +3,11 @@
 namespace app\models;
 
 use yii\db\ActiveRecord;
+use Yii;
 
 class User extends ActiveRecord implements \yii\web\IdentityInterface
 {
+    const SCENARIO_PROFILE = 'profile';
     /*public $id;
     public $username;
     public $password;
@@ -33,6 +35,23 @@ class User extends ActiveRecord implements \yii\web\IdentityInterface
             return 'user';
         }
 
+        public function rules()
+        {
+            return [
+                ['email', 'required', 'except' => self::SCENARIO_PROFILE],
+                ['email', 'email', 'except' => self::SCENARIO_PROFILE],
+                ['email', 'unique', 'targetClass' => self::className(), 'except' => self::SCENARIO_PROFILE, 'message' => Yii::t('app', 'ERROR_EMAIL_EXISTS')],
+
+            ];
+        }
+
+        public function scenarios()
+        {
+            return [
+              self::SCENARIO_DEFAULT => ['username', 'email', 'status'],
+              self::SCENARIO_PROFILE => ['email'],
+            ];
+        }
 
 
     /**

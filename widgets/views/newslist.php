@@ -19,7 +19,7 @@ AppAsset::register($this);
                 <section class="col1 pad_left1">
                     <h4 class="color<?=$i ?>"><span> <?=$new->date_create ?></span></h4>
                     <p class="pad_bot2"><strong><?=$new->title = StringHelper::truncateWords($new['title'], 3, '...', false); ?></strong></p>
-                    <p><?=$new->text = StringHelper::truncateWords(strip_tags($new['text']), 8, '...', false) ?></p>
+                    <p><?=$new->text = StringHelper::truncate(strip_tags($new['text']), 58, '...', false) ?></p>
                     <a href="<?=Url::to(['news/view', 'id'=> $new->id]) ?>" class="button2 color<?=$i ?>">Далее...</a>
                 </section>
               <?php endforeach;?>

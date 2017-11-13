@@ -87,7 +87,7 @@ AdminAsset::register($this);
                 <li class="dropdown user-dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?=Yii::$app->user->identity['username'] ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                        <li><a href="<?=\yii\helpers\Url::to('/admin/profile'); ?>"><i class="fa fa-user"></i> Profile</a></li>
                         <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
                         <li class="divider"></li>
 

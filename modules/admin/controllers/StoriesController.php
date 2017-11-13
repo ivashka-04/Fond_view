@@ -3,7 +3,7 @@
 namespace app\modules\admin\controllers;
 
 use Yii;
-use app\models\Stories;
+use app\modules\admin\models\Stories;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -102,6 +102,9 @@ class StoriesController extends Controller
             }
 
             unset($model->image);
+
+            $model->gallery = UploadedFile::getInstances($model, 'gallery');
+            $model->uploadGallery();
 
             Yii::$app->session->setFlash('success', "История {$model->author} обновлена!");
 

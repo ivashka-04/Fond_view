@@ -556,3 +556,967 @@ Stack trace:
     'REQUEST_TIME_FLOAT' => 1510240477.826
     'REQUEST_TIME' => 1510240477
 ]
+2017-11-11 14:53:21 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\filters\AccessRule.php:204
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\filters\AccessControl.php(121): yii\filters\AccessRule->allows()
+#1 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction()
+#2 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php(545): yii\base\ActionFilter->beforeFilter()
+#3 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php(545): ::call_user_func:{C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php:545}()
+#4 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger()
+#5 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction()
+#6 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction()
+#7 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#8 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#11 {main}
+2017-11-11 14:53:20 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37182'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510401200.922
+    'REQUEST_TIME' => 1510401200
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 14:53:59 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\filters\AccessRule.php:204
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\filters\AccessControl.php(121): yii\filters\AccessRule->allows()
+#1 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction()
+#2 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php(545): yii\base\ActionFilter->beforeFilter()
+#3 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php(545): ::call_user_func:{C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php:545}()
+#4 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger()
+#5 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction()
+#6 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction()
+#7 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#8 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#9 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#10 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#11 {main}
+2017-11-11 14:53:58 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37190'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510401238.967
+    'REQUEST_TIME' => 1510401238
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 15:00:00 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\admin\controllers\User' not found' in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:45
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\admin\controllers\ProfileController->actionIndex()
+#1 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#2 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#3 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#4 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#5 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#6 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#7 {main}
+2017-11-11 14:59:59 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37252'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510401599.861
+    'REQUEST_TIME' => 1510401599
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 15:02:17 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method yii\web\User::findOne()' in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:46
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php(57): app\modules\admin\controllers\ProfileController->actionIndex()
+#1 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php(57): ::call_user_func_array:{C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php:57}()
+#2 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams()
+#3 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction()
+#4 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction()
+#5 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest()
+#6 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#7 {main}
+2017-11-11 15:02:17 [127.0.0.1][1][q8ouonpn94ahul1219aidi8v04][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37277'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510401737.568
+    'REQUEST_TIME' => 1510401737
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 15:07:24 [127.0.0.1][1][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\modules\admin\controllers\ProfileController::findModel()' in C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php(38): yii\base\Component->__call('findModel', Array)
+#1 C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php(38): app\modules\admin\controllers\ProfileController->findModel()
+#2 [internal function]: app\modules\admin\controllers\ProfileController->actionIndex()
+#3 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#6 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/profile', Array)
+#7 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#9 {main}
+2017-11-11 15:07:24 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37381'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510402044.568
+    'REQUEST_TIME' => 1510402044
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 15:07:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/profile/index.php' in C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index.php', Array)
+#1 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/profile/i...', Array)
+#2 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð° Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð°.' in C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#2 {main}
+2017-11-11 15:07:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37393'
+    'REDIRECT_URL' => '/admin/profile/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510402060.341
+    'REQUEST_TIME' => 1510402060
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 15:07:43 [127.0.0.1][1][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\modules\admin\controllers\ProfileController::findModel()' in C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php(38): yii\base\Component->__call('findModel', Array)
+#1 C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php(38): app\modules\admin\controllers\ProfileController->findModel()
+#2 [internal function]: app\modules\admin\controllers\ProfileController->actionIndex()
+#3 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#6 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/profile', Array)
+#7 C:\OS\OpenServer\domains\projectA\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\OS\OpenServer\domains\projectA\web\index.php(13): yii\base\Application->run()
+#9 {main}
+2017-11-11 15:07:43 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37399'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510402063.772
+    'REQUEST_TIME' => 1510402063
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 15:10:45 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\index.php:8
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:38
+2017-11-11 15:10:45 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37455'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510402245.482
+    'REQUEST_TIME' => 1510402245
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 20:29:50 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\index.php:8
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:38
+2017-11-11 20:29:50 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'q8ouonpn94ahul1219aidi8v04'
+    '_identity' => '753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"0BmF7FGwclqpz2aGg32Ias43xfnAnlho\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin'
+    '__id' => 1
+    '__captcha/site/captcha' => 'hewvpl'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=q8ouonpn94ahul1219aidi8v04; _identity=753f359e53a1639df29fbf2a8f5c56522d8cc65da39a703c4e969888640b9f92a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%220BmF7FGwclqpz2aGg32Ias43xfnAnlho%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37742'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510421390.4
+    'REQUEST_TIME' => 1510421390
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 20:30:31 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\index.php:8
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:38
+2017-11-11 20:30:31 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'tc77418p9aqa5fkgan2v4uct22'
+    '_identity' => '03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/profile'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://fond-a/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=tc77418p9aqa5fkgan2v4uct22; _identity=03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37774'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510421431.731
+    'REQUEST_TIME' => 1510421431
+    'argv' => []
+    'argc' => 0
+]
+2017-11-11 20:33:13 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\index.php:8
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:38
+2017-11-11 20:33:13 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'tc77418p9aqa5fkgan2v4uct22'
+    '_identity' => '03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/profile'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://fond-a/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=tc77418p9aqa5fkgan2v4uct22; _identity=03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '37813'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510421593.723
+    'REQUEST_TIME' => 1510421593
+    'argv' => []
+    'argc' => 0
+]
+2017-11-12 00:15:13 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\index.php:8
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:38
+2017-11-12 00:15:13 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'tc77418p9aqa5fkgan2v4uct22'
+    '_identity' => '03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/profile'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://fond-a/admin/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=tc77418p9aqa5fkgan2v4uct22; _identity=03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '38946'
+    'REDIRECT_URL' => '/admin/profile'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510434913.123
+    'REQUEST_TIME' => 1510434913
+    'argv' => []
+    'argc' => 0
+]
+2017-11-13 22:02:09 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\update.php:8
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:58
+2017-11-13 22:02:08 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'tc77418p9aqa5fkgan2v4uct22'
+    '_identity' => '03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/profile'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=tc77418p9aqa5fkgan2v4uct22; _identity=03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '52005'
+    'REDIRECT_URL' => '/admin/profile/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile/update'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510599728.863
+    'REQUEST_TIME' => 1510599728
+    'argv' => []
+    'argc' => 0
+]
+2017-11-13 22:02:23 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\update.php:8
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:58
+2017-11-13 22:02:23 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'tc77418p9aqa5fkgan2v4uct22'
+    '_identity' => '03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/profile'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=tc77418p9aqa5fkgan2v4uct22; _identity=03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '52010'
+    'REDIRECT_URL' => '/admin/profile/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile/update'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510599743.261
+    'REQUEST_TIME' => 1510599743
+    'argv' => []
+    'argc' => 0
+]
+2017-11-13 22:09:50 [127.0.0.1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: C:\OS\OpenServer\domains\projectA/messages/ru-RU/app.php Fallback file does not exist as well: C:\OS\OpenServer\domains\projectA/messages/ru/app.php
+    in C:\OS\OpenServer\domains\projectA\modules\admin\views\profile\update.php:9
+    in C:\OS\OpenServer\domains\projectA\modules\admin\controllers\ProfileController.php:58
+2017-11-13 22:09:50 [127.0.0.1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"duƒ‹Þ„ù!pïYÈ>ô¦ŽÄŽþG‹q²Ð¶`9\";}'
+    'PHPSESSID' => 'tc77418p9aqa5fkgan2v4uct22'
+    '_identity' => '03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/admin/profile'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fond-a'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=06ce4197afbd60ec5713885fee819f33f40b97101d3e1b56955bfaac74745143a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22du%83%8B%DE%84%F9%21p%EFY%C8%3E%F4%A6%06%8E%C4%8E%90%FEG%8Bq%9D%B2%D0%0D%05%B6%609%22%3B%7D; PHPSESSID=tc77418p9aqa5fkgan2v4uct22; _identity=03353f3a2ec22ae6a8f8ee510129665c7867e09c1036d81777f778b53900e64fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22bAYvkfEkWYs8d7uRPwP5K0pwSBG910jX%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\os\\openserver\\modules\\php\\PHP-5.6-x64;c:\\os\\openserver\\modules\\imagemagick;c:\\os\\openserver\\modules\\wget\\bin;c:\\os\\openserver\\modules\\git;c:\\os\\openserver\\modules\\git\\bin;c:\\os\\openserver\\modules\\git\\mingw\\bin;c:\\os\\openserver\\modules\\git\\cmd;c:\\os\\openserver\\modules\\database\\MySQL-5.5\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\bin;c:\\os\\openserver\\modules\\database\\PostgreSQL-9.5-x64\\lib;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9\\bin;c:\\os\\openserver\\modules\\http\\Apache-2.4-x64+Nginx-1.9;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'fond-a'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OS/OpenServer/domains/projectA/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OS/OpenServer/domains/projectA/web/index.php'
+    'REMOTE_PORT' => '52162'
+    'REDIRECT_URL' => '/admin/profile/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/profile/update'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1510600190.039
+    'REQUEST_TIME' => 1510600190
+    'argv' => []
+    'argc' => 0
+]

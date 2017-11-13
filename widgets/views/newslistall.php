@@ -20,7 +20,7 @@ use yii\widgets\LinkPager;
             <h4 class="color3"><span><?=$new->date_create ?></span></h4>
         </a>
             <p class="pad_bot2"><strong><?=$new->title; ?></strong></p>
-        <p><?=$new->text = StringHelper::truncateWords(strip_tags($new['text']), 20, '...', false) ?></p>
+        <p><?=$new->text = StringHelper::truncateWords(strip_tags($new['text']), 15, '...', false) ?></p>
             <?php endforeach;?>
 
         <?=LinkPager::widget(['pagination' =>$pages]) ?>
