@@ -88,7 +88,7 @@ AdminAsset::register($this);
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?=Yii::$app->user->identity['username'] ?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="<?=\yii\helpers\Url::to('/admin/profile'); ?>"><i class="fa fa-user"></i> Profile</a></li>
-                        <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+                        <li><a href="<?=\yii\helpers\Url::to('/admin/profile/password-change') ?>"><i class="fa fa-gear"></i> Settings</a></li>
                         <li class="divider"></li>
 
                         <li><a href="<?=\yii\helpers\Url::to(['/site/logout']) ?>"><i class="fa fa-power-off"></i> Выход</a></li>
