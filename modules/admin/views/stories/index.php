@@ -19,9 +19,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
-//            ['class' => 'yii\grid\SerialColumn'],
+            ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+//            'id',
 //            'user_id',
             'author',
 //            'text:ntext',
@@ -33,7 +33,7 @@ $this->params['breadcrumbs'][] = $this->title;
         [
           'attribute' => 'new',
             'value' => function($data){
-        return !$data->new ? '<span class="text-danger">Новая история</span>' : '<span class="text-success">Старая история</span>';
+        return !$data->new ? '<span class="text-danger">Старая история</span>' : '<span class="text-success">Новая история</span>';
 
             },
             'format'=> 'html',

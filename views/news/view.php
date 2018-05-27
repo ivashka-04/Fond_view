@@ -5,7 +5,7 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 /* @var $this yii\web\View */
 \app\assets\MyAsset::register($this);
-$this->title = 'Фонда А | Новости';
+$this->title = 'NTR | Новости';
 
 
 ?>

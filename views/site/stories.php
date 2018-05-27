@@ -9,7 +9,7 @@ use app\widgets\StoryAll;
 /* @var $this yii\web\View */
 AppAsset::register($this);
 
-$this->title = 'Фонда А | Истории';
+$this->title = 'NTR | Истории';
 
 ?>
 

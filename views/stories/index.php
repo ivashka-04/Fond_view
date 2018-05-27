@@ -8,15 +8,15 @@ AppAsset::register($this);
 
 ?>
 <!-- content -->
-<article id="content">
+<!--<article id="content">
     <div class="wrapper">
         <div class="box1">
-            <div class="line1">
-                <div class="line2 wrapper">
+            <div class="line1">-->
+<!--                <div class="line2 wrapper">-->
                     <?=StoryAll::widget(); ?>
-                 </div>
-            </div>
+<!--                 </div>-->
+<!--            </div>
            </div>
     </div>
-</article>
+</article>-->
 <!-- / content -->

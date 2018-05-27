@@ -6,7 +6,7 @@ use app\widgets\NewsAll;
 /* @var $this yii\web\View */
 
 
-$this->title = 'Фонда А | Новости';
+$this->title = 'NTR | Новости';
 
 ?>
 <?=NewsAll:: widget(['mySize' =>3 ]);?>

@@ -61,6 +61,7 @@ use yii\widgets\Menu;
                             'options' => ['id' => 'menu'],
                             'items' => [
                                 ['label' => 'Главная', 'url' => ['site/index']],
+                                ['label' => 'О нас', 'url' => ['site/about']],
                                 ['label' => 'предназначение', 'url' => ['site/mission']],
                                 ['label' => 'новости', 'url' => ['news/view']],
                                 ['label' => 'Истории', 'url' => ['stories/view']],
@@ -101,18 +102,19 @@ use yii\widgets\Menu;
                 <nav>
                     <ul id="footer_menu">
                         <li id="menu_active"><a href="<?=Url::home() ?>">Главная</a></li>
+                        <li id="menu_active"><a href="<?=Url::to(['site/about']) ?>">О нас</a></li>
                         <li id="menu_active"><a href="<?=Url::to(['site/mission']) ?>">Предназначение</a></li>
                         <li id="menu_active"><a href="<?=Url::to(['news/view']) ?>">Новости</a></li>
                         <li id="menu_active"><a href="<?=Url::to(['stories/view']) ?>">Истории</a></li>
                         <li id="menu_active"><a href="<?=Url::to(['site/contact']) ?>">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="tel"><span>+1 800</span>123 45 67</div>
+                <div class="tel"><span>8 (727) </span>291 65 58 </div>
             </div>
             <div id="footer_text">
 
-                Разработка <?=Html::a('Волынкин Иван', 'http://www.linkedin.com/in/volynkin-ivan', ['target' => '_blank', 'rel' => 'nofollow']); ?><br>
-                Дизайн <?=Html::a('www.templates.com', 'http://www.templates.com', ['target' => '_blank', 'rel' => 'nofollow']); ?><br>
+<!--                Разработка --><?//=Html::a('Волынкин Иван', 'http://www.linkedin.com/in/volynkin-ivan', ['target' => '_blank', 'rel' => 'nofollow']); ?><!--<br>-->
+<!--                Дизайн --><?//=Html::a('www.templates.com', 'http://www.templates.com', ['target' => '_blank', 'rel' => 'nofollow']); ?><!--<br>-->
             </div>
         </footer>
         <!-- / footer -->

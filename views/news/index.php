@@ -5,7 +5,7 @@ new \app\widgets\NewsAll();
 
 /* @var $this yii\web\View */
 
-$this->title = 'Фонда А | NEWS';
+$this->title = 'NTR | NEWS';
 ?>
 
 

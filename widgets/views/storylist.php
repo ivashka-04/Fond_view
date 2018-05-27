@@ -26,7 +26,7 @@ AppAsset::register($this);
                                 $mainImg = $his->getImage();
                                $i++; //color1|color2|color3 вывод 3х стилей для заголовков и кнопок
                                 ?>
-                                <h2 class="color<?=$i ?>"><strong>А</strong>втор:<span> <?=$his->author = StringHelper::truncateWords(strip_tags($his['author']), 1, '...', false) ?></span></h2>
+                                <h2 class="color<?=$i ?>"><strong>И</strong>стория:<span> <?=$his->author = StringHelper::truncateWords(strip_tags($his['author']), 1, '...', false) ?></span></h2>
                                 <div class="pad_bot1"><figure><?=Html::img($mainImg->getUrl('264x104')); ?></figure></div>
                                 <?=$his->text = StringHelper::truncate(strip_tags($his['text']), 58, '...', false) ?>
                                 <a href="<?=Url::to(['stories/view', 'id'=> $his->id]) ?>" class="button1 color<?=$i ?>">Далее...</a>

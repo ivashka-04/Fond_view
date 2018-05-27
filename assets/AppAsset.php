@@ -20,7 +20,7 @@ class AppAsset extends AssetBundle
     public $css = [
     'https://fonts.googleapis.com/css?family=Marmelad&amp;subset=cyrillic',
     'css/site.css',
-//    'css/main.css',
+    'css/main.css',
     'css/reset.css',
     'css/layout.css',
     'css/style.css',

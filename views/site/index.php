@@ -7,7 +7,7 @@ use yii\helpers\Url;
 
 
 
-$this->title = 'Project V';
+$this->title = 'NTR';
 
 //Yii::$app->view->title = 'Фонд А';
 ?>
@@ -17,31 +17,31 @@ $this->title = 'Project V';
 <div class="slider">
     <ul class="items">
         <li>
-            <img src="/images/img1.jpg" alt="">
-            <div class="banner">
+            <img src="/images/img11.jpg" alt="">
+            <!--<div class="banner">
                 <div class="wrapper"><span>“Our<em>Mission</em>is to<em>Help</em></span></div>
                 <div class="wrapper"><strong>Those Who<em>Need</em>It”</strong></div>
-            </div>
+            </div>-->
         </li>
         <li>
-            <img src="/images/img2.jpg" alt="">
-            <div class="banner">
+            <img src="/images/img22.jpg" alt="">
+            <!--<div class="banner">
                 <div class="wrapper"><span>“MAKE all the CHILDREN</span></div>
                 <div class="wrapper"><strong>of the World HAPPY”</strong></div>
-            </div>
+            </div>-->
         </li>
         <li>
-            <img src="/images/img3.jpg" alt="">
-            <div class="banner">
+            <img src="/images/img33.jpg" alt="">
+            <!--<div class="banner">
                 <div class="wrapper"><span>“TOGETHER we can CHANGE</span></div>
                 <div class="wrapper"><strong>Many Young LIVES”</strong></div>
-            </div>
+            </div>-->
         </li>
     </ul>
     <ul class="pagination">
-        <li id="banner1"><a href="#">произвести<br>обмен на онлайн <span>сервисе</span></a></li>
-        <li id="banner2"><a href="#">осуществить прямой взнос в <span>фонд</span></a></li>
-        <li id="banner3"><a href="#">Получить<span>помощь</span></a></li>
+        <li id="banner1"><a href="#">3D анимация<br>Состав <span>катализатора</span></a></li>
+        <li id="banner2"><a href="#">Видео<span>Новый ролик</span></a></li>
+        <li id="banner3"><a href="<?=Url::to(['site/contact']) ?>">Обратная <span>связь</span></a></li>
     </ul>
 </div>
 <?=StoryList::widget(); ?>
@@ -50,7 +50,7 @@ $this->title = 'Project V';
 <div class="wrapper">
 <h3 id="mission"><a id="mission" href="<?=Url::to(['site/mission']) ?>">Предназначение</a></h3>
 <p class="quot">
-    “А” это фонд, ведущий благотворительную деятельность. Мы реализуем различные социально ориентированные программы и занимаемся распределением грантов. Наша деятельность определена в наших уставных документах.<img src="/images/quot2.png" alt="">
+    В недрах нашей страны можно найти много полезных ископаемых, а на поверхности – много вредных <img src="/images/quot2.png" alt="">
 </p>
 </div>
 
